@@ -1,0 +1,74 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/warning/warning",
+			"style": {
+				"navigationBarTitleText": "预警"
+			}
+		},
+		{
+			"path": "pages/interest/interest",
+			"style": {
+				"navigationBarTitleText": "兴趣识别"
+			}
+		},
+		{
+			"path": "pages/sugar/sugar",
+			"style": {
+				"navigationBarTitleText": "血糖恢复方案"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#F35402",
+		"height": "100rpx",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/tab/a1.png",
+				"selectedIconPath": "static/tab/a2.png"
+			},
+			{
+				"pagePath": "pages/warning/warning",
+				"text": "预警",
+				"iconPath": "static/tab/b1.png",
+				"selectedIconPath": "static/tab/b2.png"
+			},
+			{
+				"pagePath": "pages/interest/interest",
+				"text": "兴趣识别",
+				"iconPath": "static/tab/c1.png",
+				"selectedIconPath": "static/tab/c2.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "static/tab/d1.png",
+				"selectedIconPath": "static/tab/d2.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"navigationStyle": "custom",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
